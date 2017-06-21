@@ -1,4 +1,5 @@
 #include < stdio.h >
+<<<<<<< HEAD
 
 int main (void)
 {
@@ -6,4 +7,13 @@ int k=0;
 printf (“Hello word!!!\n”);
 
 return k;
+=======
+#include < unistd.h >
+int main (void)
+{
+printf (“Hello word!!!\n”);
+sleep (5);
+
+return 0;
+>>>>>>> next1
 }
