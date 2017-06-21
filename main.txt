@@ -1,6 +1,9 @@
-#include < stdio.h > 
+#include < stdio.h >
+#include < unistd.h >
 int main (void)
 {
-puts (“Hello world”);
+printf (“Hello word!!!\n”);
+sleep (5);
+
 return 0;
 }
