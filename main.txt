@@ -1,4 +1,4 @@
-#include < stdio.h >
+﻿#include < stdio.h >
 #include < unistd.h >
 
 double t=0.1;
@@ -13,5 +13,6 @@ y=y+3;
 g=g+t;
 sleep (5);
 t=g;
+printf (“%f\n”,t)
 return k;
 }
